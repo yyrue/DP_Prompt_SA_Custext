@@ -1,0 +1,72 @@
+# ===== OS / Editor junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Python cache / env =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
+**/log/
+**/logs/
+
+# ===== Large model artifacts =====
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+**/trained_model/
+**/checkpoints/
+
+# ===== Experiment outputs (project-specific) =====
+**/experiment_results/
+**/experiment_results_sa/
+**/attack_results/
+**/attack_results_mixed/
+**/knn_attack_results/
+**/efficiency_results/
+**/final_paper/
+**/本科毕业论文/
+
+# ===== Data / generated datasets =====
+**/datasets/
+**/privatized_dataset/
+**/privatized_dataset_mixed/
+**/data/
+**/outputs/
+
+# ===== Embeddings / dictionaries (large generated assets) =====
+**/embeddings/*.txt
+**/p_dict/
+**/sim_dist_dict/
+**/sim_word_dict/
+
+# ===== Keep source-like files in these dirs tracked if needed =====
+!**/embeddings/*.py
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.DS_Store
+*.log
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+data/
+outputs/
+checkpoints/
