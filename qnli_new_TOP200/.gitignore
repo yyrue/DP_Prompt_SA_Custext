@@ -1,0 +1,79 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Experiment outputs
+experiment_results*/
+outputs/
+results/
+runs/
+checkpoints/
+
+# Data
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# Models
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# Environment / secrets
+.env
+*.key
+
+#中间结果
+knn_attack_results/
+attack_results/
+privatized_dataset/
+trained_model/
+log/
+*.log
+*.txt
+*.log.txt
+*.log.txt.gz
+*.log.txt.gz.part
+*.log.txt.gz.part.1
+*.log.txt.gz.part.2
+
+sim_dist_dict/
+sim_word_dict/
+p_dict/
+
+# 中间结果
+knn_attack_results/
+attack_results*/
+privatized_dataset/
+trained_model/
+privatized_dataset_mixed/
+log/
+*.log
+*.txt
+*.log.txt
+*.log.txt.gz
+
+embeddings/
+glove_840B-300d.txt
+glove_840B-300d.zip
+glove_840B-300d.zip.part
+glove_840B-300d.zip.part.1
+glove_840B-300d.zip.part.2
+glove_840B-300d.zip.part.3
+glove_840B-300d.zip.part.4
+glove_840B-300d.zip.part.5
+glove_840B-300d.zip.part.6
+glove_840B-300d.zip.part.7
+glove_840B-300d.zip.part.8
